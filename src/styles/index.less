@@ -1,0 +1,42 @@
+@import "../../node_modules/framework7/framework7.bundle.less";
+
+.required {
+  .inline-label {
+    position: relative;
+  }
+
+  .inline-label::before {
+    position: absolute;
+    color: #ee0a24;
+    font-size: 18px;
+    content: "*";
+    left: 5px;
+    top: 12px;
+  }
+}
+
+//  重写输入框字体大小
+.ios {
+  --f7-input-font-size: 16px;
+  --f7-inline-label-font-size: 16px;
+
+  --f7-card-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  a.link {
+    color: #fff;
+  }
+}
+
+.van-overlay {
+  z-index: 5997 !important;
+}
+
+.van-popup {
+  z-index: 5998 !important;
+}
+
+.van-toast {
+  z-index: 6000 !important;
+}
