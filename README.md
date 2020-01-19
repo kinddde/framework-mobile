@@ -6,6 +6,8 @@
 
 - ui 库: [framework7-vue](https://framework7.io/vue/)
 
+- 代码规范： Eslint、prettier
+
 ## 开发
 
 > 注意 src/config 环境配置
