@@ -37,7 +37,7 @@
     "vue-cli-plugin-postcss-preset": "^1.0.2",
     "vue-template-compiler": "^2.6.10",
     "webpack-bundle-analyzer": "^3.6.0",
-    "yargs-parser": "^16.1.0"
+    "yargs-parser": "^18.1.2"
   },
   "eslintConfig": {
     "root": true,
