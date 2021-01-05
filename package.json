@@ -9,7 +9,7 @@
     "build:test": "vue-cli-service build --API=test"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "core-js": "^3.4.3",
     "framework7": "^5.2.0",
     "framework7-vue": "^5.2.0",
